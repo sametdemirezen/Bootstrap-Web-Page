@@ -1,0 +1,74 @@
+
+/*! ********* NAVBAR ********* */
+.navbar-brand{
+    text-decoration: none;
+    font-size: 0.7rem;
+
+}
+
+.nav-item{
+    margin: 0.05rem;
+    font-family: var(--bs-font-sans-serif);
+}
+
+/*! ********* BANNER ********* */
+
+.banner{
+    background-image: url("./img/banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #800080;
+
+}
+
+.banner-container{
+padding: 8rem;
+
+}
+
+/*! ********* SERVICES ********* */
+
+.services-item p{
+    font-size: 1rem;
+}
+
+.services-item i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.services-item span{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*! ********* PORTFOLIO ********* */
+
+.portfolio{
+    background-color: #F8F9FA;
+    
+}
+
+.portfolio-card{ 
+    
+}
+
+.card-body{
+    background-color: #FFFFFF;
+    margin-top: 0;
+}
+
+.card{
+    margin-top: 0;
+}
+
+/*.portfolio-card{
+    border: 1px solid rgba(0,0,0,.125);;
+}*/
+

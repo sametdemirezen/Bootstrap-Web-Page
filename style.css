@@ -1,16 +1,4 @@
 
-/*! ********* NAVBAR ********* */
-.navbar-brand{
-    text-decoration: none;
-    font-size: 0.7rem;
-
-}
-
-.nav-item{
-    margin: 0.05rem;
-    font-family: var(--bs-font-sans-serif);
-}
-
 /*! ********* BANNER ********* */
 
 .banner{
@@ -19,6 +7,7 @@
     background-size: cover;
     height: 100vh;
     color: #800080;
+    background-position: center;
 
 }
 
@@ -72,3 +61,40 @@ padding: 8rem;
     border: 1px solid rgba(0,0,0,.125);;
 }*/
 
+/*! ********* OUR TEAM ********* */
+
+.our-team{
+    background-color: #F8F9FA;
+}
+
+.team-image{
+    border: 10px solid #CCCCCC;
+    width: 250px;
+    height: 250px;
+}
+
+.media{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+
+    
+}
+
+div .col-sm a {
+    color: black;
+   text-decoration: none;
+   font-size: 2rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span.infosys {
+    color: blue;
+}
+
+h2 {
+    font-size: 5rem !important;
+}
